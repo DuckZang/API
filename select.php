@@ -8,7 +8,7 @@ $db = "id20967380_mob403";
 $con = new mysqli($server,$u, $pass, $db);
 //chuoi insert
 $sql="SELECT * from Student";
-//thuc hien insert
+//thuc hien insert/
 $result=$con->query($sql);
 if($result->num_rows>0)//neu co du lieu
 {

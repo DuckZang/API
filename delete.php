@@ -10,7 +10,7 @@ $con = new mysqli($server,$u, $pass, $db);
 // if ($con-> connect_err){
 //     die("Error connecting ".$con->connect_err);
 // }
-// chuỗi update
+// chuỗi update/
 $sql = "DELETE from Student  WHERE id = '1'";  // điền id
 // thực hiện update
 if($con->query($sql) === TRUE) {

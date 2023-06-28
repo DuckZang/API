@@ -13,7 +13,7 @@ $con = new mysqli($server,$u, $pass, $db);
 // chuỗi insert
 $sql = "insert into Student (id,ten,masv,lop)
 values('1', 'Giang','ph27260','cp17319')";  
-// thực hiện insert
+// thực hiện insert//
 if($con->query($sql) === TRUE) {
     echo "Insert thanh cong";
 }else{

@@ -12,7 +12,7 @@ die("Loi ket noi: ".$con->connect_err);
 }
 //chuoi insert
 $sql="update Student SET ten='update giangdeptrai' WHERE id=2";
-//thuc hien insert
+//thuc hien insert/
 if($con->query($sql)===TRUE){
 echo "Update thanh cong";
 }

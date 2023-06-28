@@ -12,7 +12,7 @@ $sql="SELECT * from Student";
 //thuc hien insert
 $result=$con->query($sql);
 while($row[]=$result->fetch_assoc()){//doc tung dong du lieu
-$json=json_encode($row);//chuyen sang json
+$json=json_encode($row);//chuyen sang json/
 }
 echo '{"MyGuests":'.$json.'}';
 $con->close();
